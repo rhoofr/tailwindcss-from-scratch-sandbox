@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Colors</title>
+</head>
+
+<body class="m-8">
+  <!-- Default colors -->
+  <!-- white, black, red, green, blue, orange, yellow, purple, lime, emerald, teal, cyan, indigo, violet, fuchsia, pink, rose, sky, gray, slate, zinc, neutral, stone, amber,  -->
+
+  <!-- Text Colors -->
+  <div class="font-bold">-- Text Colors --</div>
+  <p class="text-black">text-black</p>
+  <p class="text-red-50">text-red-50</p>
+  <p class="text-red-100">text-red-100</p>
+  <p class="text-red-200">text-red-200</p>
+  <p class="text-red-300">text-red-300</p>
+  <p class="text-red-400">text-red-400</p>
+  <p class="text-red-500">text-red-500</p>
+  <p class="text-red-600">text-red-600</p>
+  <p class="text-red-700">text-red-700</p>
+  <p class="text-red-800">text-red-800</p>
+  <p class="text-red-900">text-red-900</p>
+
+  <!-- Background Colors -->
+  <div class="font-bold mt-8">-- Background Colors --</div>
+  <div class="bg-slate-600 p-1">
+    <p class="text-white">bg-slate-600 text-white</p>
+  </div>
+  <div class="bg-zinc-400 p-1">
+    <p class="text-white">bg-zinc-400 text-white</p>
+  </div>
+  <div class="bg-emerald-600 p-1">
+    <p class="text-white">bg-emerald-600 text-white</p>
+  </div>
+
+  <!-- Text Underline -->
+  <div class="font-bold mt-8">-- Text Underline --</div>
+  <p class="underline text-red-700 decoration-red-700">underline text-red-700 decoration-red-700</p>
+  <p class="underline text-blue-700 decoration-blue-700">
+    underline text-blue-700 decoration-blue-700
+  </p>
+
+  <!-- Border Colors -->
+  <div class="font-bold mt-8">-- Border Colors --</div>
+  <input class="border-2 border-rose-500 p-1 w-full" placeholder="border-2 border-rose-500" />
+  <input class="border-2 border-blue-300 p-1 w-full" placeholder="border-2 border-blue-300" />
+  <input class="border-2 border-purple-900 p-1 w-full" placeholder="border-2 border-purple-90" />
+  <input class="border-2 border-yellow-500 p-1 w-full" placeholder="border-2 border-yellow-500" />
+
+  <!-- Divide Colors -->
+  <div class="divide-y divide-blue-200 mt-8">
+    <div class="font-bold">-- Divide Colors --</div>
+    <div>divide-y divide-blue-200 - Notice divider line</div>
+    <div>Notice divider line</div>
+    <div>Notice divider line</div>
+    <div>Notice divider line</div>
+    <div>Notice divider line</div>
+  </div>
+
+  <div class="font-bold mt-8">-- Divide Colors --</div>
+  <div class="flex divide-x divide-red-500">
+
+    <div class="p-2">divide-x divide-red-500</div>
+    <div class="p-2">divide-x divide-red-500</div>
+    <div class="p-2">divide-x divide-red-500</div>
+    <div class="p-2">divide-x divide-red-500</div>
+    <div class="p-2">divide-x divide-red-500</div>
+  </div>
+
+  <!-- Outline Colors -->
+  <div class="font-bold mt-8">-- Outline Colors --</div>
+  <button class="outline outline-blue-500 p-1">outline outline-blue-500</button>
+  <button class="outline outline-purple-300 p-1">outline outline-purple-300</button>
+  <button class="outline outline-gray-500 p-1">outline outline-gray-500</button>
+
+  <!-- Box Shadow Colors (Opacity defaults to 100, but you cans set it)-->
+  <div class="font-bold mt-8">-- Box Shadow Colors --</div>
+  <div class="mb-8">
+    <button class="bg-cyan-500 shadow-lg shadow-cyan-500 p-1 rounded-md">bg-cyan-500 shadow-lg
+      shadow-cyan-500 rounded-md</button>
+    <button class="bg-blue-500 shadow-lg shadow-blue-500/50 p-1 rounded-md">bg-blue-500 shadow-lg
+      shadow-blue-500/50 rounded-md</button>
+    <button class="bg-indigo-500 shadow-lg shadow-indigo-500/50 p-1 rounded-md">
+      bg-indigo-500 shadow-lg shadow-indigo-500/50 rounded-md
+    </button>
+  </div>
+
+  <!-- Accent Colors -->
+  <div class="font-bold mt-8">-- Accent Colors on checkbox --</div>
+  <input type="checkbox" class="accent-purple-500" checked /> Option 1
+  <input type="checkbox" class="accent-pink-500" checked /> Option 2
+  <input type="checkbox" class="accent-red-300" checked /> Option 3
+
+  <!-- Arbitrary Colors -->
+  <div class="font-bold mt-8">-- Arbitrary Colors --</div>
+  <div class="bg-[#427fab] h-10 m-auto"><span class="inline-block align-middle">bg-[#427fab] h-10</span></div>
+  <!-- <div class="bg-[#427fab] h-10 m-auto"><span>bg-[#427fab] h-10</span></div> -->
+  <div class="text-[#427fab] h-10">text-[#427fab] h-10</div>
+  <div class="border border-[#427fab] h-10">border border-[#427fab] h-10</div>
+</body>
+
+</html>
